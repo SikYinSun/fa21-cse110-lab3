@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>meeting note</title>
+        <meta name="author" content="Sik Yin Sun">
+        <link rel="icon" type="image.jpg" href="https://thumbs.dreamstime.com/b/meeting-text-sticky-note-pinned-to-corkboard-d-renderi-82225460.jpg"/>
+    </head>
+    <body>
+    <main>
+        <img src="https://blog.otter.ai/content/images/2020/03/take-note-rev.png" alt="Note" width="120" height="100">
+        <header>
+            <h1>Product first meeting</h1>
+            <h3> October 1, 2021</h3>
+        </header>
+
+        <section>
+            <div>
+                <h2>Brain storm</h2>
+                <ul>
+                    <li>Want the Product be <span> red</span></li>
+                    <li>The price should around $100</li>
+                    <li>Our target buyers are teenager</li>
+                </ul>
+            Example
+                <nav>
+                    <a href="https://www.att.com/buy/wearables/apple-watch-series-6-40mm-product-red-aluminum-product-red-sport.html?source=EC1NSpDES0000000P&tfn=wireless&WT.srch=1&wtExtndSource=PRODUCT_GROUP&gclsrc=aw.ds&ds_rl=1286077&gclid=CjwKCAjw49qKBhAoEiwAHQVToweSm3iji7jUJNs01trEiODyPlVTGsjB_RRQw4W5LUw_SdtyMglsKRoCNT4QAvD_BwE&gclsrc=aw.ds">Apple watch</a> |
+                    <a href="https://www.jcpenney.com/p/keurig-classic-k-mini-plus/ppr5007871788?pTmplType=regular&country=US&currency=USD&selectedSKUId=78043140026&selectedLotId=7804314&fromBag=true&utm_medium=cse&utm_source=google&utm_campaign=Coffee%20Makers&utm_content=78043140026&cid=cse%7Cgoogle%7C%7cCoffee%20Makers_78043140026&storeId=1950&gclid=CjwKCAjw49qKBhAoEiwAHQVTo8J6eCV19n7T878IBPua3Tju_rj5f9TsOyGMlK-pCAnYcFwEaxKDShoCex0QAvD_BwE&gclsrc=aw.ds">Coffee machine</a> |
+                    <a href="https://www.bedbathandbeyond.com/store/product/haden-dorset-2-slice-toaster/5473496?skuId=69519164&enginename=google&mcid=PS_googlepla_nonbrand_plakitchenelectricsgeneric_online&product_id=69519164&adtype=pla&product_channel=online&adpos=&creative=541653957345&device=c&matchtype=&network=g&gclid=CjwKCAjw49qKBhAoEiwAHQVTo9qdo_84mmfzEvhL9ZLKhACdTMgvMcTlym6rAk54siLm7kiancMk_BoCKDYQAvD_BwE&gclsrc=aw.ds">Toaster</a>
+                </nav>
+            </div>
+        </section>
+
+        <hr> 
+
+        <section>
+            <h2>Check-ins</h2>
+            <strong> people shouldn't be late in meeting</strong>
+            <ol>
+                <li>Anivia</li>
+                <li>Zed</li>
+                <li>Yasou</li>
+                <li>Lucian</li>
+                <li>Yone</li>
+                <li>Teemo  <b>Late</b></li> 
+            </ol>
+        </section>
+
+        <hr> 
+
+        <section>
+            <details> 
+                <summary>Documentation</summary>
+                <a href="https://www.buzzfeed.com/samanthawieder/products-that-teenagers-swear-are-actually-cool-to-buy">Things that teenager likes</a><br>
+                <video width="320" height="240" controls>
+                    <source src="UCSD parking.mp4" type="video/mp4">
+                </video>
+            </details>
+
+        </section>
+
+        <hr>
+        <section>
+            <h2>Agenda</h2>
+            <ul>
+                <li>finish about topic from last meeting <br>
+                    <audio controls>
+                        <source src="Bigbang - LOSER.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+               <li>Discuss what kind of product we want to make</li>
+               <li>Discuss what is our target buyer</li>
+               <li><em>Discuss what are some features we want to incude in the product</em></li> 
+               <li>Discuss what is our <i>price range</i></li>
+            </ul>
+        </section>
+
+        <form action="/action_page.php">
+            <fieldset>
+            <label for="question">Any other question:</label><br>
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="yes">
+            <label for="no">No</label>
+            <input type="checkbox" id="no"> <br>
+            <input type="text" id="question"><br>
+            <label for="anonymous">Do you want to be anonymous</label>
+            <input type="radio" id="anonymous"><br>
+            <label for="date">What is today date?</label>
+            <input type="date" id="date"> <br>
+            <button type="button" onclick="alert('Submited')">Submit</button>
+            </fieldset>
+        </form>
+
+        <form action="/action_page.php" method="get">
+            <fieldset>
+                <label for="suggestion">Do you have any suggestion:</label>
+                <input list="suggestions" name="suggestion" id="suggestion">
+                <datalist id="suggestions">
+                    <option value="All good"></option>
+                    <option value="Is fine"></option>
+                    <option value="Big question"></option>
+                </datalist>
+
+                <br>
+                <label for="rating">Rate this meeting(1 is good, 5 is bad)</label>
+                <select name="rating" id="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <label for="longresponse">Long response:</label>
+                <textarea id="longresponse" name="longresponse" rows="5" cols="80">fill your suggestion here.
+                </textarea>
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <footer>
+            <p>Notetaker: Sik Yin Sun<br>
+            <a href="mailto:sysun@uscd.edu">sysun@ucsd.edu</a>
+            </p>
+        </footer>
+    </main>
+    
+    </body>
+</html>
