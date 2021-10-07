@@ -5,7 +5,7 @@ body {
   
   h1 {
     color: rgb(93, 31, 207);
-    margin-left: 14em;
+    margin-left: 11em;
     font-size: 5.5ex;
   }
 
@@ -22,3 +22,39 @@ body {
 
   strong {color: red;}
 
+  /*this use for create a box for the title and date*/
+  .box {
+    border-style: solid;
+    border-color: rgb(235, 77, 187);
+    border-width: 4px;
+    border-radius: 20px;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+  }
+
+  /*this use for create a box for the footer*/
+  .bottomBox {
+    border-style: dotted;
+    border-color: rgb(165, 46, 129);
+    border-width: 4px;
+    border-radius: 5px;
+
+    padding: 2mm 2mm 2mm 2em;
+    margin: 5mm 1cm 5mm 1cm;
+  }
+
+  .suggestBox {
+    border-style: solid;
+    border-color: rgb(77, 180, 46);
+    border-width: 4px;
+    border-radius: 5px;
+    margin: auto;
+  }
