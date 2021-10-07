@@ -118,3 +118,24 @@ body {
     margin: 50px;
     padding: 15px;
   }
+
+  .grid-container {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 200px [col-start]); /*make 3 columns in a row*/
+    grid-gap: 20px;      
+    background-color: #517fb8;;
+    padding: 30px;       
+    justify-content: space-around;
+  }
+  
+  .grid-container > li {
+    background-color: hsla(0,100%,0%,0.3); 
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    color:rgb(196, 196, 196)
+  }
