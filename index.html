@@ -5,6 +5,24 @@
         <meta name="author" content="Sik Yin Sun">
         <link rel="icon" href="https://thumbs.dreamstime.com/b/meeting-text-sticky-note-pinned-to-corkboard-d-renderi-82225460.jpg"/>
         <link rel="stylesheet" href="Style.css">
+        <style>
+           #block {
+                display: inline-block;
+                width: 80px;
+                height: 20px;
+                padding: 2px;
+                border: 1px solid red;
+                background-color: yellow;
+            }
+            
+            #inline{
+            display: inline; 
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            background-color: rgb(230, 49, 18);
+            }           
+        </style>
     </head>
     <body>
         <header class="box">
@@ -13,9 +31,10 @@
         </header>
     <main>
         <img src="https://blog.otter.ai/content/images/2020/03/take-note-rev.png" alt="Note" width="120" height="100">
-        
+        <p id="tryFixed">Hello</p>
+
         <section>
-            <div>
+            <div id="BrainStorm">
                 <h2>Brain storm</h2>
                 <ul>
                     <li>Want the Product be <span> red</span></li>
@@ -34,15 +53,15 @@
         <hr> 
 
         <section>
-            <h2>Check-ins</h2>
-            <strong> people shouldn't be late in meeting</strong>
+            <h2 style="text-align: center;">Check-ins</h2>
+            <strong style="text-align: center;text-decoration: underline;color: red;"> people shouldn't be late in meeting</strong>
             <ol>
                 <li>Anivia</li>
                 <li>Zed</li>
                 <li>Yasou</li>
                 <li>Lucian</li>
                 <li>Yone</li>
-                <li>Teemo  <b>Late</b></li> 
+                <li>Teemo  <b id="inline">Late</b></li> 
             </ol>
         </section>
 
@@ -51,7 +70,7 @@
         <section>
             <details> 
                 <summary>Documentation</summary>
-                <a href="https://www.buzzfeed.com/samanthawieder/products-that-teenagers-swear-are-actually-cool-to-buy">Things that teenager likes</a><br>
+                <a id="linkInDoc" href="https://www.buzzfeed.com/samanthawieder/products-that-teenagers-swear-are-actually-cool-to-buy">Things that teenager likes</a><br>
                 <video width="320" height="240" controls>
                     <source src="The_Sixth_Sense.mp4" type="video/mp4">
                 </video>
@@ -71,7 +90,7 @@
                <li>Discuss what kind of product we want to make</li>
                <li>Discuss what is our target buyer</li>
                <li><em>Discuss what are some features we want to incude in the product</em></li> 
-               <li>Discuss what is our <i>price range</i></li>
+               <li>Discuss what is our <i id="block">price range</i></li>
             </ul>
         </section>
 
@@ -87,7 +106,7 @@
             <input type="radio" id="anonymous"><br>
             <label for="date">What is today date?</label>
             <input type="date" id="date"> <br>
-            <button type="button" onclick="alert('Submited')">Submit</button>
+            <button id="click" type="button" onclick="alert('Submited')">Submit</button>
             </fieldset>
         </form>
 
