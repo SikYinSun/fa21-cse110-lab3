@@ -1,0 +1,24 @@
+/*changing the background blue*/
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(93, 31, 207);
+    margin-left: 14em;
+    font-size: 5.5ex;
+  }
+
+  h2 {
+      color: #0824F7;
+      margin-left: 2ch;
+      font-size: 8mm
+  }
+
+  #dateontop {color: rgba(132, 11, 156, 0.603);
+      margin-left: 1.5pc;
+      font-size: 22Q
+  }
+
+  strong {color: red;}
+
