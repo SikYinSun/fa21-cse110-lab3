@@ -9,6 +9,15 @@ body {
     font-size: 5.5ex;
   }
 
+  /*phone*/
+    @media (max-width: 1000px){
+    h1 {
+       font-size: 8mm;
+       margin-left: 2em;
+       text-align: center;
+       color:rgb(165, 46, 129);
+    }
+}
   h2 {
       color: #0824F7;
       margin-left: 2ch;
@@ -21,7 +30,7 @@ body {
   }
 
   /*this use for create a box for the title and date*/
-  .box {
+   .box {
     border-style: solid;
     border-color: rgb(235, 77, 187);
     border-width: 4px;
@@ -91,4 +100,42 @@ body {
    #click:active{
        color: red;
    }
+   
+   .wordFont {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
 
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 94, 59);
+  }
+
+  .flex-container > div {
+    background-color: #43ca9d;
+    margin: 50px;
+    padding: 15px;
+  }
+
+  .grid-container {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 200px [col-start]); /*make 3 columns in a row*/
+    grid-gap: 20px;      
+    background-color: #517fb8;;
+    padding: 30px;       
+    justify-content: space-around;
+  }
+  
+  .grid-container > li {
+    background-color: hsla(0,100%,0%,0.3); 
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    color:rgb(196, 196, 196)
+  }
