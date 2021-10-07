@@ -20,8 +20,6 @@ body {
       font-size: 22Q
   }
 
-  strong {color: red;}
-
   /*this use for create a box for the title and date*/
   .box {
     border-style: solid;
@@ -38,6 +36,8 @@ body {
     margin-bottom: 5mm;
     margin-left: 3cm;
     margin-right: 3cm;
+
+    position: static;
   }
 
   /*this use for create a box for the footer*/
@@ -49,6 +49,7 @@ body {
 
     padding: 2mm 2mm 2mm 2em;
     margin: 5mm 1cm 5mm 1cm;
+
   }
 
   .suggestBox {
@@ -58,3 +59,36 @@ body {
     border-radius: 5px;
     margin: auto;
   }
+
+  #BrainStorm {
+    background: gold;
+    width: 10px;
+    min-width: 320px;
+    max-width: 100%;
+  }
+
+   #tryFixed {
+       text-align: right;
+       color: darkblue;
+       position: fixed;
+       top: 20px;
+       right: 80px
+   }
+
+   #linkInDoc {
+       background-color: rgb(88, 206, 88);
+       transition: background-color .5s;
+   }
+
+   #linkInDoc:hover{
+    background-color: rgb(230, 182, 27);
+   }
+
+   #click {
+    background-color: yellow;
+   }
+
+   #click:active{
+       color: red;
+   }
+
