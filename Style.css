@@ -18,10 +18,11 @@ body {
        color:rgb(165, 46, 129);
     }
 }
-  h2 {
+  * h2 {
       color: #0824F7;
       margin-left: 2ch;
-      font-size: 8mm
+      font-size: 14mm;
+      font-family: 'Ephesis', cursive;
   }
 
   #dateontop {color: rgba(132, 11, 156, 0.603);
@@ -71,7 +72,8 @@ body {
 
   #BrainStorm {
     background: gold;
-    width: 10px;
+    width: 120px;
+    height: 270px;
     min-width: 320px;
     max-width: 100%;
   }
@@ -102,7 +104,6 @@ body {
    }
    
    .wordFont {
-    font-family: 'Noto Sans Display', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
   }
 
@@ -110,12 +111,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
     background-color: rgb(34, 94, 59);
   }
 
   .flex-container > div {
     background-color: #43ca9d;
-    margin: 50px;
+    margin: 30px;
     padding: 15px;
   }
 
@@ -138,4 +140,40 @@ body {
     padding: 25px;
     font-size: 15px;
     color:rgb(196, 196, 196)
+  }
+
+  a[href*="watch"] {
+    background-color: rgb(31, 151, 145);
+  }
+
+  a:link {
+    color:rgb(135, 221, 37);
+  }
+
+  em ,li{
+    color: purple;
+    font-size: 120%;
+
+  }
+
+  ul li {
+    background-color: chartreuse;
+  }
+
+  ol ~ p {
+   background-color: rgb(28, 213, 219);
+   color:rgb(211, 57, 159);
+   font-size: 150%;
+   font-weight: bold;
+  }
+
+  ul + p {
+    background-color:rgb(221, 57, 199);
+    font-size: 120%;
+    
+  }
+
+  h1.wordFont {
+    background-color: yellow;
+    width: 340px;
   }
